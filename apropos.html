@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>À propos - Église Sainte-Rita</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+    }
+    main {
+      flex: 1; /* prend tout l'espace restant entre navbar et footer */
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">Église Sainte-Rita</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarMenu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Accueil</a></li>
+        <li class="nav-item"><a class="nav-link" href="horaire.html">Horaire Messe</a></li>
+        <li class="nav-item"><a class="nav-link" href="localisation.html">Localisation</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        <li class="nav-item"><a class="nav-link active" href="apropos.html">À propos</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Contenu principal -->
+<main class="container my-5">
+  <h1 class="text-center mb-4">Sainte-Rita</h1>
+  
+  <div class="text-center mb-4">
+    <img src="sainte_rita.jpg" class="img-fluid rounded shadow-sm" alt="Image de Sainte Rita">
+  </div>
+
+  <p class="text-justify">
+    Marguerite Lotti (en italien : Margherita Lotti), appelée sœur Rita de Cascia (en italien : sorella Rita da Cascia) communément simplifiée en Rita, née en mai 1381 à Roccaporena (États pontificaux) et morte le 22 mai 1457 à Cascia (États pontificaux), est une veuve italienne qui fut admise dans l'ordre des Augustines. Elle est connue comme l'avocate des « causes désespérées ». Canonisée en 1900, son corps incorrompu reste dans la basilique Sainte-Rita de Cascia.
+  </p>
+
+  <p class="text-center">
+    <a href="https://fr.wikipedia.org/wiki/Rita_de_Cascia" class="btn btn-dark">En savoir plus</a>
+  </p>
+</main>
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center py-3">
+  &copy; 2025 Église Sainte-Rita Bellevue | Tous droits réservés
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
